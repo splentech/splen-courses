@@ -1,158 +1,161 @@
 "use client";
 
 import {
-    Box,
-    Heading,
-    Input,
-    Grid,
-    Text,
-    Button,
-    Collapse,
-    useDisclosure,
+  Box,
+  Heading,
+  Input,
+  Grid,
+  Text,
+  Button,
+  Flex,
+  InputGroup,
+  InputLeftElement,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { courses } from "../lib/courses";
-import { trainers } from "../lib/trainers";
 import Link from "next/link";
 import Navlinks from "../components/layout/Navlink";
-import { Flex } from "@chakra-ui/react";
-
-
+import { FaSearch } from "react-icons/fa";
 
 const MotionBox = motion(Box);
 
 export default function Explore() {
-    const [search, setSearch] = useState("");
+  const [search, setSearch] = useState("");
 
-    const filtered = (courses || []).filter((c) =>
-        (c?.title || "").toLowerCase().includes(search.toLowerCase())
-    );
+  const filtered = (courses || []).filter((c) =>
+    (c?.title || "").toLowerCase().includes(search.toLowerCase())
+  );
 
-    return (
+  return (
+    <Box bg="#0a0a0b" minH="100vh" color="white">
+      <Navlinks />
 
-        <Box
-            bgGradient="linear(to-br, blue.50, white)"
-            minH="100vh"
-            px={{ base: 4, md: 10 }}
-            py={10}
-        >
-            <Navlinks mb={20} />
-            {/* <Link href="/">
-                <Button mb={6} variant="outline">
-                    ← Back to Home
-                </Button>
-            </Link> */}
-            {/* HEADER */}
-            <Heading mb={6} color="blue.600">
-                Explore Courses
-            </Heading>
+      <Box
+        position="fixed"
+        top="20%"
+        left="5%"
+        w="400px"
+        h="400px"
+        borderRadius="full"
+        bg="blue.600"
+        filter="blur(160px)"
+        opacity={0.06}
+        pointerEvents="none"
+        zIndex={0}
+      />
 
-            {/* SEARCH */}
-            <Input
-                placeholder="Search courses..."
-                mb={10}
-                bg="white"
-                color="gray.800"
-                boxShadow="sm"
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-            />
+      <Box px={{ base: 4, md: 10 }} py={14} maxW="1200px" mx="auto" position="relative" zIndex={1}>
+        <MotionBox initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} mb={10}>
+          <Text color="blue.400" fontSize="xs" fontWeight="700" letterSpacing="0.15em" textTransform="uppercase" mb={3}>
+            Programs
+          </Text>
+          <Heading fontSize={{ base: "3xl", md: "5xl" }} fontWeight="800">
+            Explore <Text as="span" bgGradient="linear(to-r, blue.400, purple.400)" bgClip="text">Courses</Text>
+          </Heading>
+          <Text mt={3} color="gray.400" maxW="480px">
+            Browse our full catalog of instructor-led, placement-focused programs.
+          </Text>
+        </MotionBox>
 
-            {/* GRID */}
-            <Grid templateColumns={{ base: "1fr", md: "repeat(2,1fr)" }} gap={6}>
-                {filtered.map((course, i) => (
-                    <CourseCard key={i} course={course} />
-                ))}
-            </Grid>
-        </Box>
-    );
+        <InputGroup mb={10} maxW="480px">
+          <InputLeftElement pointerEvents="none" color="gray.500" mt="1px">
+            <FaSearch />
+          </InputLeftElement>
+          <Input
+            placeholder="Search courses..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            bg="#141418"
+            border="1px solid rgba(255,255,255,0.1)"
+            color="white"
+            borderRadius="lg"
+            _placeholder={{ color: "gray.500" }}
+            _focus={{ borderColor: "blue.400", boxShadow: "0 0 0 1px #4f6ef7", bg: "#141418" }}
+            _hover={{ borderColor: "rgba(255,255,255,0.2)" }}
+          />
+        </InputGroup>
+
+        <Grid templateColumns={{ base: "1fr", md: "repeat(2, 1fr)", lg: "repeat(3, 1fr)" }} gap={6}>
+          {filtered.map((course, i) => (
+            <CourseCard key={course.slug || i} course={course} index={i} />
+          ))}
+        </Grid>
+
+        {filtered.length === 0 && (
+          <Text color="gray.500" mt={8} textAlign="center">
+            No courses found for "{search}"
+          </Text>
+        )}
+      </Box>
+    </Box>
+  );
 }
 
-/* 🔥 Separate component = performance fix */
-function CourseCard({ course }) {
-    // const { isOpen, onToggle } = useDisclosure();
-
-    return (
-        <MotionBox
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            whileHover={{ y: -5 }}
-            transition={{ duration: 0.4 }}
-            p={6}
-            bg="white"
-            color="gray.800"
-            borderRadius="xl"
-            boxShadow="md"
-            border="1px solid #e2e8f0"
+function CourseCard({ course, index }) {
+  return (
+    <MotionBox
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4, delay: index * 0.05 }}
+      whileHover={{ y: -5, boxShadow: "0 0 32px rgba(79,110,247,0.18)" }}
+      p={6}
+      bg="#141418"
+      borderRadius="xl"
+      border="1px solid rgba(255,255,255,0.07)"
+      display="flex"
+      flexDirection="column"
+      gap={4}
+    >
+      <Flex justify="space-between" align="center">
+        <Heading size="sm" color="white" maxW="75%">
+          {course.title}
+        </Heading>
+        <Box
+          boxSize="42px"
+          borderRadius="full"
+          overflow="hidden"
+          bg="rgba(255,255,255,0.06)"
+          border="1px solid rgba(255,255,255,0.1)"
+          flexShrink={0}
         >
-            {/* 🔥 TOP ROW */}
-            <Flex justify="space-between" align="center">
-                <Heading size="md">{course.title}</Heading>
+          <img src={course?.trainerImage || "/trainer.png"} alt="trainer" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+        </Box>
+      </Flex>
 
-                {/* TRAINER IMAGE */}
-                <Box
-                    boxSize="50px"
-                    borderRadius="full"
-                    overflow="hidden"
-                    bg="gray.200"
-                >
-                    <img
-                        src={course?.trainerImage || "/trainer.png"}
-                        alt="trainer"
-                        style={{
-                            width: "100%",
-                            height: "100%",
-                            objectFit: "cover",
-                        }}
-                    />
-                </Box>
-            </Flex>
+      {course.description && (
+        <Text color="gray.400" fontSize="sm" noOfLines={2} lineHeight={1.6}>
+          {course.description}
+        </Text>
+      )}
 
-            {/* 🔥 BUTTONS */}
-            <Flex mt={6} gap={3}>
-                {/* VIEW DETAILS */}
-                <Link href={`/courses/${course.slug}`} style={{ width: "100%" }}>
-                    <Button size="sm" colorScheme="blue" w="100%">
-                        View Details
-                    </Button>
-                </Link>
-
-
-                {/* MEET TRAINER */}
-                <Link href={`/trainers/${course.trainerSlug}`} style={{ width: "100%" }}>
-
-                    <Button
-                        size="sm"
-                        variant="outline"
-                        w="100%"
-                        bg="gray.200"
-                    >
-                        Meet Trainer
-                    </Button>
-                </Link>
-            </Flex>
-
-            {/* 🔥 COLLAPSE CONTENT */}
-            {/* <Collapse in={isOpen} animateOpacity>
-                <Box mt={4}>
-                    <Text fontWeight="bold" mb={2}>
-                        Trainer: {course.trainer || "Coming Soon"}
-                    </Text>
-
-                    <Text fontWeight="bold" mb={2}>
-                        Career Opportunities:
-                    </Text>
-
-                    {(course.jobs || []).map((job, i) => (
-                        <Text key={i}>• {job}</Text>
-                    ))}
-
-                    <Text mt={3} color="green.600" fontWeight="bold">
-                        Avg Salary: ₹6–25 LPA
-                    </Text>
-                </Box>
-            </Collapse> */}
-        </MotionBox>
-    );
+      <Flex mt="auto" gap={3}>
+        <Link href={`/courses/${course.slug}`} style={{ flex: 1 }}>
+          <Button
+            w="100%"
+            size="sm"
+            bgGradient="linear(to-r, blue.500, purple.500)"
+            color="white"
+            _hover={{ bgGradient: "linear(to-r, blue.400, purple.400)", transform: "translateY(-1px)" }}
+            transition="all 0.2s"
+          >
+            View Details
+          </Button>
+        </Link>
+        <Link href={`/trainers/${course.trainerSlug}`} style={{ flex: 1 }}>
+          <Button
+            w="100%"
+            size="sm"
+            variant="outline"
+            borderColor="rgba(255,255,255,0.15)"
+            color="gray.300"
+            _hover={{ bg: "rgba(255,255,255,0.07)", borderColor: "rgba(255,255,255,0.3)", color: "white" }}
+            transition="all 0.2s"
+          >
+            Meet Trainer
+          </Button>
+        </Link>
+      </Flex>
+    </MotionBox>
+  );
 }

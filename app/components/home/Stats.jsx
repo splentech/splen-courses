@@ -16,82 +16,80 @@ export default function Stats() {
   ];
 
   const [counts, setCounts] = useState(stats.map(() => 0));
-  const [start, setStart] = useState(false);
+  const [started, setStarted] = useState(false);
 
   useEffect(() => {
-    if (!start) return;
-
+    if (!started) return;
     const duration = 2000;
     const interval = 16;
-
     const timers = stats.map((stat, index) => {
       let current = 0;
       const increment = stat.value / (duration / interval);
-
       return setInterval(() => {
         current += increment;
-
         setCounts((prev) => {
           const updated = [...prev];
-
-          if (current >= stat.value) {
-            updated[index] = stat.value;
-            clearInterval(timers[index]);
-          } else {
-            updated[index] = Math.floor(current);
-          }
-
+          updated[index] = current >= stat.value ? stat.value : Math.floor(current);
           return updated;
         });
       }, interval);
     });
-
     return () => timers.forEach(clearInterval);
-  }, [start]);
+  }, [started]);
 
   return (
     <MotionBox
       py={16}
-      bg="white"
-      onViewportEnter={() => setStart(true)} // 🔥 TRIGGER HERE
-      viewport={{ once: true }} // run only once
+      bg="rgba(79, 110, 247, 0.05)"
+      borderTop="1px solid rgba(255,255,255,0.06)"
+      borderBottom="1px solid rgba(255,255,255,0.06)"
+      onViewportEnter={() => setStarted(true)}
+      viewport={{ once: true }}
     >
       <Grid
-        templateColumns={{ base: "1fr 1fr", md: "repeat(4,1fr)" }}
-        gap={8}
+        templateColumns={{ base: "1fr 1fr", md: "repeat(4, 1fr)" }}
+        gap={{ base: 8, md: 10 }}
         maxW="1100px"
         mx="auto"
+        px={{ base: 4, md: 0 }}
       >
         {stats.map((stat, i) => (
           <MotionBox
             key={i}
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.5, delay: i * 0.1 }}
+            viewport={{ once: true }}
+            whileHover={{ y: -4 }}
             textAlign="center"
-            whileHover={{ y: -5 }}
           >
             <Flex justify="center" mb={4}>
               <Box
-                bg="gray.100"
+                bg="rgba(79, 110, 247, 0.15)"
+                border="1px solid rgba(79, 110, 247, 0.3)"
                 p={4}
                 borderRadius="full"
                 fontSize="22px"
-                color="blue.500"
+                color="blue.400"
               >
                 {stat.icon}
               </Box>
             </Flex>
-
-            <Text fontSize="3xl" fontWeight="bold">
-              {counts[i]}{stat.suffix}
+            <Text fontSize={{ base: "2xl", md: "3xl" }} fontWeight="800" color="white">
+              {counts[i]}
+              {stat.suffix}
             </Text>
-
-            <Text color="gray.600" mt={2}>
+            <Text color="gray.400" mt={1} fontSize="sm" letterSpacing="wide">
               {stat.label}
             </Text>
-
-            <Box w="40px" h="2px" bg="blue.500" mx="auto" mt={2} />
+            <Box
+              w="40px"
+              h="2px"
+              bgGradient="linear(to-r, blue.400, purple.400)"
+              mx="auto"
+              mt={3}
+              borderRadius="full"
+            />
           </MotionBox>
         ))}
       </Grid>
