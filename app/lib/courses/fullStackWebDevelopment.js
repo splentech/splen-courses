@@ -10,6 +10,10 @@ export default {
     "Web Developer"
   ],
 
+    trainer: "Harsh Sareen",
+  trainerImage: "/trainer1.png",
+  trainerSlug: "harshSareen",
+
   content: [
     {
       type: "heading",

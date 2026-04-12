@@ -3,9 +3,9 @@ export default {
     title: "Cyber Security & Ethical Hacking",
     description: "Placement Oriented Tailor Made Tech Platter",
 
-    trainer: "John Doe",
+    trainer: "Justice K",
     trainerImage: "/trainer1.png",
-    trainerSlug: "john-doe",
+    trainerSlug: "justiceK",
 
 
 

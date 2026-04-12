@@ -9,9 +9,9 @@ export default {
         "Backend Engineer",
         "Competitive Programmer"
     ],
-    trainer: "Raze Reaper",
+    trainer: "Raman Gupta",
     trainerImage: "/trainer2.jpg",
-    trainerSlug: "raze-reaper",
+    trainerSlug: "ramanGupta",
 
     content: [
         {

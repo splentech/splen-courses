@@ -10,6 +10,10 @@ export default {
     "Data Analyst"
   ],
 
+  trainer: "Deepak Gurao",
+  trainerImage: "/trainer1.png",
+  trainerSlug: "deepakGurao",
+
   content: [
     {
       type: "heading",

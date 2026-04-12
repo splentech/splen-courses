@@ -3,9 +3,9 @@ export default {
     title: "AI / Machine Learning",
     description: "Placement Oriented Tailor Made Tech Platter",
 
-    trainer: "John Doe",
+    trainer: "Deepak Gurao",
     trainerImage: "/trainer1.png",
-    trainerSlug: "john-doe",
+    trainerSlug: "deepakGurao",
 
 
     content: [

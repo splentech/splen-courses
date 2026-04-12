@@ -10,6 +10,11 @@ export default {
     "Competitive Programmer"
   ],
 
+
+  trainer: "Revathi Gopalan",
+  trainerImage: "/trainer1.png",
+  trainerSlug: "revathiGopalan",
+
   content: [
     {
       type: "heading",

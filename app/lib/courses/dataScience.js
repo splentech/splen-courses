@@ -3,9 +3,9 @@ export default {
     title: "Data Science",
     jobs: ["ML Engineer", "AI Engineer"],
 
-    trainer: "Raze Reaper",
+    trainer: "Justice K",
     trainerImage: "/trainer2.jpg",
-    trainerSlug: "raze-reaper",
+    trainerSlug: "justiceK",
     
 
     content: [

@@ -9,6 +9,9 @@ export default {
     "System Programmer",
     "C Programmer"
   ],
+     trainer: "Justice K",
+    trainerImage: "/trainer1.png",
+    trainerSlug: "justiceK",
 
   content: [
     {

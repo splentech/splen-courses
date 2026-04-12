@@ -3,15 +3,9 @@ export default {
     title: "C++ Programming",
     description: "From Logic Building to Object-Oriented Mastery",
 
-    jobs: [
-        "Software Developer",
-        "SDE Intern",
-        "Backend Engineer",
-        "Competitive Programmer"
-    ],
-    trainer: "Raze Reaper",
+    trainer: "Nishchal Gupta",
     trainerImage: "/trainer2.jpg",
-    trainerSlug: "raze-reaper",
+    trainerSlug: "nishchalGupta",
 
     content: [
         {

@@ -10,6 +10,10 @@ export default {
     "Web Application Developer"
   ],
 
+  trainer: "Vinod Nagar",
+  trainerImage: "/trainer1.png",
+  trainerSlug: "vinodNagar",
+
   content: [
     {
       type: "heading",

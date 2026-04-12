@@ -4433,6 +4433,99 @@ const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__W
 
 /***/ }),
 
+/***/ "(rsc)/./node_modules/@chakra-ui/react/dist/esm/flex/flex.mjs":
+/*!**************************************************************!*\
+  !*** ./node_modules/@chakra-ui/react/dist/esm/flex/flex.mjs ***!
+  \**************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Flex: () => (/* binding */ e0)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\flex\flex.mjs`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\flex\flex.mjs#Flex`);
+
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/@chakra-ui/react/dist/esm/image/image.mjs":
+/*!****************************************************************!*\
+  !*** ./node_modules/@chakra-ui/react/dist/esm/image/image.mjs ***!
+  \****************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Image: () => (/* binding */ e0)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\image\image.mjs`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\image\image.mjs#Image`);
+
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/@chakra-ui/react/dist/esm/tag/tag.mjs":
+/*!************************************************************!*\
+  !*** ./node_modules/@chakra-ui/react/dist/esm/tag/tag.mjs ***!
+  \************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Tag: () => (/* binding */ e0),
+/* harmony export */   TagCloseButton: () => (/* binding */ e1),
+/* harmony export */   TagLabel: () => (/* binding */ e2),
+/* harmony export */   TagLeftIcon: () => (/* binding */ e3),
+/* harmony export */   TagRightIcon: () => (/* binding */ e4),
+/* harmony export */   useTagStyles: () => (/* binding */ e5)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\tag\tag.mjs`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\tag\tag.mjs#Tag`);
+
+const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\tag\tag.mjs#TagCloseButton`);
+
+const e2 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\tag\tag.mjs#TagLabel`);
+
+const e3 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\tag\tag.mjs#TagLeftIcon`);
+
+const e4 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\tag\tag.mjs#TagRightIcon`);
+
+const e5 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\tag\tag.mjs#useTagStyles`);
+
+
+/***/ }),
+
 /***/ "(rsc)/./node_modules/@chakra-ui/react/dist/esm/typography/heading.mjs":
 /*!***********************************************************************!*\
   !*** ./node_modules/@chakra-ui/react/dist/esm/typography/heading.mjs ***!
