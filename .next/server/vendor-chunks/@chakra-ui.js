@@ -4381,6 +4381,136 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "(rsc)/./node_modules/@chakra-ui/react/dist/esm/accordion/accordion-button.mjs":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@chakra-ui/react/dist/esm/accordion/accordion-button.mjs ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   AccordionButton: () => (/* binding */ e0)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\accordion\accordion-button.mjs`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\accordion\accordion-button.mjs#AccordionButton`);
+
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/@chakra-ui/react/dist/esm/accordion/accordion-icon.mjs":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@chakra-ui/react/dist/esm/accordion/accordion-icon.mjs ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   AccordionIcon: () => (/* binding */ e0)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\accordion\accordion-icon.mjs`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\accordion\accordion-icon.mjs#AccordionIcon`);
+
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/@chakra-ui/react/dist/esm/accordion/accordion-item.mjs":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@chakra-ui/react/dist/esm/accordion/accordion-item.mjs ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   AccordionItem: () => (/* binding */ e0)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\accordion\accordion-item.mjs`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\accordion\accordion-item.mjs#AccordionItem`);
+
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/@chakra-ui/react/dist/esm/accordion/accordion-panel.mjs":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@chakra-ui/react/dist/esm/accordion/accordion-panel.mjs ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   AccordionPanel: () => (/* binding */ e0)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\accordion\accordion-panel.mjs`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\accordion\accordion-panel.mjs#AccordionPanel`);
+
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/@chakra-ui/react/dist/esm/accordion/accordion.mjs":
+/*!************************************************************************!*\
+  !*** ./node_modules/@chakra-ui/react/dist/esm/accordion/accordion.mjs ***!
+  \************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Accordion: () => (/* binding */ e0)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\accordion\accordion.mjs`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\accordion\accordion.mjs#Accordion`);
+
+
+/***/ }),
+
 /***/ "(rsc)/./node_modules/@chakra-ui/react/dist/esm/box/box.mjs":
 /*!************************************************************!*\
   !*** ./node_modules/@chakra-ui/react/dist/esm/box/box.mjs ***!
@@ -4459,6 +4589,32 @@ const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__W
 
 /***/ }),
 
+/***/ "(rsc)/./node_modules/@chakra-ui/react/dist/esm/grid/grid.mjs":
+/*!**************************************************************!*\
+  !*** ./node_modules/@chakra-ui/react/dist/esm/grid/grid.mjs ***!
+  \**************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Grid: () => (/* binding */ e0)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\grid\grid.mjs`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\grid\grid.mjs#Grid`);
+
+
+/***/ }),
+
 /***/ "(rsc)/./node_modules/@chakra-ui/react/dist/esm/image/image.mjs":
 /*!****************************************************************!*\
   !*** ./node_modules/@chakra-ui/react/dist/esm/image/image.mjs ***!
@@ -4481,6 +4637,32 @@ const { __esModule, $$typeof } = proxy;
 const __default__ = proxy.default;
 
 const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\image\image.mjs#Image`);
+
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/@chakra-ui/react/dist/esm/stack/stack.mjs":
+/*!****************************************************************!*\
+  !*** ./node_modules/@chakra-ui/react/dist/esm/stack/stack.mjs ***!
+  \****************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Stack: () => (/* binding */ e0)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\stack\stack.mjs`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\kanis\OneDrive\Desktop\Splen-Workshop\splen-saas\node_modules\@chakra-ui\react\dist\esm\stack\stack.mjs#Stack`);
 
 
 /***/ }),
