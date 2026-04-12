@@ -96,7 +96,14 @@ export default function Home() {
           position="relative"
           zIndex={1}
         >
-          <MotionBox initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} mb={7}>
+          <MotionBox
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            mb={{ base: 20, md: 8 }}
+            position="relative"
+            zIndex={2}
+          >
             <Tag
               bg="rgba(79,110,247,0.15)"
               color="blue.300"
@@ -111,7 +118,7 @@ export default function Home() {
             </Tag>
           </MotionBox>
 
-          <MotionBox style={{ y }}>
+          <MotionBox style={{ y }} mt={{ base: 1, md: 0 }}>
             <Heading
               fontSize={{ base: "4xl", md: "7xl" }}
               lineHeight={1.1}
