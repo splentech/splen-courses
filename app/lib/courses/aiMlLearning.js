@@ -3,14 +3,10 @@ export default {
     title: "AI / Machine Learning",
     description: "Placement Oriented Tailor Made Tech Platter",
 
-    jobs: [
-        "Frontend Developer",
-        "Backend Developer",
-        "Full Stack Developer"
-    ],
     trainer: "John Doe",
     trainerImage: "/trainer1.png",
     trainerSlug: "john-doe",
+
 
     content: [
         {
@@ -19,180 +15,252 @@ export default {
         },
         {
             type: "text",
-            text: "Full Stack Developers are in high demand in today’s job market. Facebook, Google, Uber and many unicorn startups rely heavily on strong technology stacks. This program is designed for beginners and professionals to master full stack development from scratch."
+            text: "This 6-week AI/ML program is designed to help students understand machine learning concepts and build real-world intelligent systems. It covers data processing, model building, and deployment to prepare learners for industry roles."
+        },
+
+        {
+            type: "heading",
+            text: "Tools & Technologies"
+        },
+        {
+            type: "list",
+            items: [
+                "Language: Python",
+                "Libraries: NumPy, Pandas, Scikit-learn, Matplotlib",
+                "Deep Learning: TensorFlow / Keras",
+                "Deployment: Streamlit / Flask",
+                "IDE: Jupyter Notebook / VS Code"
+            ]
+        },
+
+        {
+            type: "heading",
+            text: "Weekly Breakdown"
+        },
+
+        {
+            type: "heading",
+            text: "Week 1: Foundations of AI, ML & Python"
+        },
+        {
+            type: "list",
+            items: [
+                "Introduction to AI, ML & Deep Learning",
+                "Types of ML (Supervised, Unsupervised, Reinforcement)",
+                "Python basics for ML",
+                "Libraries: NumPy & Pandas"
+            ]
         },
         {
             type: "text",
-            text: "You will start with basics of web development, build static websites, then move to dynamic applications, databases, and backend development."
+            text: "Hands-on: Python basics, data handling, basic analysis"
+        },
+        {
+            type: "text",
+            text: "Assignment: Analyze dataset (marks/sales data)"
         },
 
         {
             type: "heading",
-            text: "What You Will Learn"
+            text: "Week 2: Data Preprocessing & Visualization"
         },
         {
             type: "list",
             items: [
-                "HTML, CSS, Bootstrap fundamentals",
-                "JavaScript, jQuery, AJAX",
-                "React.js for SPA development",
-                "Node.js & Express.js backend",
-                "MongoDB & SQL databases",
-                "Git, GitHub & Linux tools"
+                "Data cleaning (missing values, outliers)",
+                "Feature scaling & encoding",
+                "Visualization (Matplotlib, Seaborn)",
+                "Exploratory Data Analysis (EDA)"
+            ]
+        },
+        {
+            type: "text",
+            text: "Hands-on: Dataset cleaning + visual dashboards"
+        },
+        {
+            type: "text",
+            text: "Assignment: EDA on real dataset (housing prices)"
+        },
+
+        {
+            type: "heading",
+            text: "Week 3: Supervised Learning"
+        },
+        {
+            type: "list",
+            items: [
+                "Linear Regression",
+                "Logistic Regression",
+                "K-Nearest Neighbors (KNN)",
+                "Model evaluation (accuracy, precision, recall)"
+            ]
+        },
+        {
+            type: "text",
+            text: "Hands-on: House price prediction & spam detection"
+        },
+        {
+            type: "text",
+            text: "Assignment: Build classification model"
+        },
+
+        {
+            type: "heading",
+            text: "Week 4: Unsupervised Learning & Optimization"
+        },
+        {
+            type: "list",
+            items: [
+                "K-Means clustering",
+                "Hierarchical clustering",
+                "Dimensionality reduction (PCA)",
+                "Model tuning & cross-validation"
+            ]
+        },
+        {
+            type: "text",
+            text: "Hands-on: Customer segmentation"
+        },
+        {
+            type: "text",
+            text: "Assignment: Market segmentation model"
+        },
+
+        {
+            type: "heading",
+            text: "Week 5: Advanced ML & Deep Learning"
+        },
+        {
+            type: "list",
+            items: [
+                "Decision Trees & Random Forest",
+                "Support Vector Machines (SVM)",
+                "Neural Networks basics",
+                "Deep Learning intro (TensorFlow/Keras)"
+            ]
+        },
+        {
+            type: "text",
+            text: "Hands-on: Tree models + simple neural network"
+        },
+        {
+            type: "text",
+            text: "Assignment: Basic image classification"
+        },
+
+        {
+            type: "heading",
+            text: "Week 6: Deployment & Industry Readiness"
+        },
+        {
+            type: "list",
+            items: [
+                "Model deployment (Flask/Streamlit)",
+                "Model saving/loading",
+                "API integration basics",
+                "Debugging & optimization"
             ]
         },
 
         {
             type: "heading",
-            text: "Projects You Will Build"
+            text: "Capstone Projects"
+        },
+
+        {
+            type: "heading",
+            text: "1. House Price Prediction"
         },
         {
             type: "list",
             items: [
-                "E-commerce Website",
-                "QnA Forum",
-                "Blogging Platform",
-                "Food Ordering App"
+                "Regression model",
+                "Visualization dashboard",
+                "Model accuracy evaluation",
+                "Streamlit deployment"
             ]
         },
 
         {
             type: "heading",
-            text: "Course Highlights"
+            text: "2. Student Performance Prediction"
         },
         {
             type: "list",
             items: [
-                "7+ real-world industry projects",
-                "Hands-on learning approach",
-                "Placement-focused training",
-                "Live instructor-led sessions",
-                "Backend + Frontend integration"
+                "Classification model",
+                "Predict grades/pass-fail",
+                "Feature importance analysis",
+                "Interactive UI"
             ]
         },
 
         {
             type: "heading",
-            text: "Course Modules"
-        },
-
-        {
-            type: "heading",
-            text: "1. JavaScript Development"
+            text: "3. Customer Segmentation"
         },
         {
             type: "list",
             items: [
-                "JS Basics, Functions, Arrays, OOP",
-                "jQuery & AJAX",
-                "Real-time Chat Application",
-                "Advanced JavaScript"
+                "Clustering model",
+                "Behavior-based grouping",
+                "Business insights"
             ]
         },
 
         {
             type: "heading",
-            text: "2. HTML & CSS"
+            text: "4. Image Classifier (Optional Advanced)"
         },
         {
             type: "list",
             items: [
-                "HTML5 & CSS3 fundamentals",
-                "Responsive design",
-                "Website wireframing",
-                "Game & UI development"
+                "Neural network model",
+                "Basic dataset classification",
+                "Accuracy visualization"
             ]
         },
 
         {
             type: "heading",
-            text: "3. Node.js"
+            text: "Evaluation Criteria"
         },
         {
             type: "list",
             items: [
-                "HTTP Server creation",
-                "File System & Streams",
-                "Express.js with MongoDB",
-                "REST APIs & Middleware"
+                "Model performance & accuracy",
+                "Data preprocessing quality",
+                "Code structure & readability",
+                "Deployment success",
+                "Presentation & explanation"
             ]
         },
 
         {
             type: "heading",
-            text: "4. Angular"
+            text: "Learning Outcomes"
         },
         {
             type: "list",
             items: [
-                "SPA architecture",
-                "Components & Services",
-                "Forms, HTTP & Observables"
+                "Understand ML workflows",
+                "Handle real-world datasets",
+                "Build predictive models",
+                "Deploy ML applications",
+                "Prepare for AI/ML roles"
             ]
         },
 
         {
             type: "heading",
-            text: "5. MongoDB"
+            text: "Bonus Industry Add-ons"
         },
         {
             type: "list",
             items: [
-                "CRUD Operations",
-                "Indexing & Aggregation",
-                "Replication & Sharding"
-            ]
-        },
-
-        {
-            type: "heading",
-            text: "6. Docker"
-        },
-        {
-            type: "list",
-            items: [
-                "Compose basics",
-                "Networking & Volumes",
-                "Production usage"
-            ]
-        },
-
-        {
-            type: "heading",
-            text: "7. React.js"
-        },
-        {
-            type: "list",
-            items: [
-                "Components & Props",
-                "State Management",
-                "Routing & Styling"
-            ]
-        },
-
-        {
-            type: "heading",
-            text: "8. Linux"
-        },
-        {
-            type: "list",
-            items: [
-                "Command line basics",
-                "File handling",
-                "Advanced CLI"
-            ]
-        },
-
-        {
-            type: "heading",
-            text: "9. SQL"
-        },
-        {
-            type: "list",
-            items: [
-                "Database design",
-                "Queries & Joins",
-                "Transactions & Subqueries"
+                "Resume & GitHub portfolio building",
+                "Kaggle competition guidance",
+                "Mock interviews (ML case studies)"
             ]
         }
     ]
