@@ -2,6 +2,8 @@ export default {
   slug: "fullStackWeb",
   title: "Full Stack Web Development",
   description: "From Idea to Deployable Web Application",
+  originalPrice: 10500,
+  discountPrice: 5200,
 
   jobs: [
     "Full Stack Developer",

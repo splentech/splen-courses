@@ -2,6 +2,8 @@ export default {
   slug: "dsa",
   title: "DSA Mastery",
   description: "From Problem Solving to Interview Cracking",
+  originalPrice: 8400,
+  discountPrice: 3900,
 
   jobs: [
     "Software Engineer",

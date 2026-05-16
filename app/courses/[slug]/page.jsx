@@ -209,8 +209,76 @@ export default function CourseDetail({ params }) {
             border="1px solid rgba(255,255,255,0.08)"
             borderRadius="2xl"
           >
-            <Text color="gray.400" fontSize="sm">Enrollment for 2026 batch</Text>
-            <Heading size="lg" mt={1}>Limited Seats</Heading>
+            <Text color="gray.400" fontSize="xs" fontWeight="600" letterSpacing="0.1em" textTransform="uppercase">
+              Enrollment · 2026 Batch
+            </Text>
+
+            {course.discountPrice ? (
+              <Box
+                mt={4}
+                p={4}
+                bg="rgba(79,110,247,0.08)"
+                border="1px solid rgba(79,110,247,0.22)"
+                borderRadius="xl"
+                position="relative"
+                overflow="hidden"
+              >
+                {/* subtle glow */}
+                <Box
+                  position="absolute"
+                  top="-30px"
+                  right="-30px"
+                  w="100px"
+                  h="100px"
+                  borderRadius="full"
+                  bg="blue.500"
+                  filter="blur(50px)"
+                  opacity={0.15}
+                  pointerEvents="none"
+                />
+
+                <Flex align="center" gap={2} mb={1}>
+                  <Text color="gray.500" fontSize="sm" textDecoration="line-through">
+                    ₹{(course.originalPrice || 0).toLocaleString("en-IN")}
+                  </Text>
+                  <Tag
+                    size="sm"
+                    bg="rgba(34,197,94,0.14)"
+                    color="green.300"
+                    border="1px solid rgba(34,197,94,0.3)"
+                    borderRadius="full"
+                    px={2}
+                    fontWeight="700"
+                  >
+                    {Math.round((1 - course.discountPrice / course.originalPrice) * 100)}% OFF
+                  </Tag>
+                </Flex>
+
+                <Flex align="baseline" gap={1} mb={1}>
+                  <Heading
+                    fontSize="3xl"
+                    bgGradient="linear(to-r, blue.300, purple.300)"
+                    bgClip="text"
+                    lineHeight={1}
+                  >
+                    ₹{course.discountPrice.toLocaleString("en-IN")}
+                  </Heading>
+                </Flex>
+
+                <Text fontSize="xs" color="gray.500" mt={1}>
+                  You save{" "}
+                  <Text as="span" color="green.400" fontWeight="700">
+                    ₹{(course.originalPrice - course.discountPrice).toLocaleString("en-IN")}
+                  </Text>{" "}
+                  with LPU discount
+                </Text>
+              </Box>
+            ) : (
+              <Box mt={4}>
+                <Heading size="lg">Limited Seats</Heading>
+                <Text color="gray.500" fontSize="sm" mt={1}>Contact us for pricing</Text>
+              </Box>
+            )}
 
             <Stack spacing={3} mt={5} color="gray.300" fontSize="sm">
               {[

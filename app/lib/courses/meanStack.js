@@ -2,6 +2,8 @@ export default {
   slug: "meanStack",
   title: "MEAN Stack",
   description: "From Frontend to Full-Stack Deployment",
+  originalPrice: 8400,
+  discountPrice: 3900,
 
   jobs: [
     "Full Stack Developer",

@@ -2,6 +2,8 @@ export default {
   slug: "coreJava",
   title: "Core Java",
   description: "From Syntax to Scalable Application Development",
+  originalPrice: 6500,
+  discountPrice: 3200,
 
   jobs: [
     "Java Developer",

@@ -2,6 +2,8 @@ export default {
   slug: "mernStack",
   title: "MERN Stack",
   description: "From UI to Full-Stack Product Development",
+  originalPrice: 8400,
+  discountPrice: 3900,
 
   jobs: [
     "Full Stack Developer",

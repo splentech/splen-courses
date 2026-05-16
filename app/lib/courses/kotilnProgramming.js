@@ -2,6 +2,8 @@ export default {
   slug: "kotlinAndroid",
   title: "Kotlin Programming",
   description: "From Modern Programming to Android App Development",
+  originalPrice: 8400,
+  discountPrice: 4200,
 
   jobs: [
     "Android Developer",

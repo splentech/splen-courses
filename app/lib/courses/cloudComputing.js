@@ -2,6 +2,8 @@ export default {
     slug: "cloudComputing",
     title: "Cloud Computing",
     description: "From Infrastructure to Scalable Cloud Solutions",
+  originalPrice: 8400,
+  discountPrice: 4200,
 
     jobs: [
         "Software Developer",

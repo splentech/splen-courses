@@ -2,6 +2,8 @@ export default {
   slug: "advancedJava",
   title: "Advanced Java",
   description: "From Core Java to Real-World Backend Development",
+  originalPrice: 8400,
+  discountPrice: 3900,
 
   jobs: [
     "Java Backend Developer",

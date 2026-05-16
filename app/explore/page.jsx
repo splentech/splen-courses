@@ -8,6 +8,7 @@ import {
   Text,
   Button,
   Flex,
+  Tag,
   InputGroup,
   InputLeftElement,
 } from "@chakra-ui/react";
@@ -127,6 +128,59 @@ function CourseCard({ course, index }) {
         <Text color="gray.400" fontSize="sm" noOfLines={2} lineHeight={1.6}>
           {course.description}
         </Text>
+      )}
+
+      {course.discountPrice ? (
+        <Box
+          px={4}
+          py={3}
+          bg="rgba(79,110,247,0.07)"
+          border="1px solid rgba(79,110,247,0.18)"
+          borderRadius="xl"
+        >
+          <Flex align="center" gap={2} mb={1}>
+            <Text
+              color="gray.500"
+              fontSize="xs"
+              textDecoration="line-through"
+            >
+              ₹{(course.originalPrice || 0).toLocaleString("en-IN")}
+            </Text>
+            <Tag
+              size="sm"
+              bg="rgba(34,197,94,0.14)"
+              color="green.300"
+              border="1px solid rgba(34,197,94,0.28)"
+              borderRadius="full"
+              px={2}
+              fontWeight="700"
+              fontSize="10px"
+            >
+              {Math.round((1 - course.discountPrice / course.originalPrice) * 100)}% OFF
+            </Tag>
+          </Flex>
+          <Flex align="baseline" gap={1}>
+            <Text fontSize="2xl" fontWeight="800" color="white" lineHeight={1}>
+              ₹{course.discountPrice.toLocaleString("en-IN")}
+            </Text>
+            <Text fontSize="xs" color="gray.500" fontWeight="400">
+              / program
+            </Text>
+          </Flex>
+          <Text fontSize="10px" color="blue.400" fontWeight="600" mt={1} letterSpacing="0.06em" textTransform="uppercase">
+            LPU Exclusive Price
+          </Text>
+        </Box>
+      ) : (
+        <Box
+          px={4}
+          py={3}
+          bg="rgba(255,255,255,0.03)"
+          border="1px dashed rgba(255,255,255,0.1)"
+          borderRadius="xl"
+        >
+          <Text fontSize="sm" color="gray.500">Contact us for pricing</Text>
+        </Box>
       )}
 
       <Flex mt="auto" gap={3}>

@@ -2,6 +2,8 @@ export default {
   slug: "pythonProgramming",
   title: "Python Programming",
   description: "From Basics to Real-World Python Development",
+  originalPrice: 6500,
+  discountPrice: 3200,
 
   jobs: [
     "Python Developer",

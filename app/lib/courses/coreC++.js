@@ -2,6 +2,8 @@ export default {
     slug: "coreC",
     title: "C++ Programming",
     description: "From Logic Building to Object-Oriented Mastery",
+  originalPrice: 6500,
+  discountPrice: 3200,
 
     trainer: "Nishchal Gupta",
     trainerImage: "/trainer2.jpg",

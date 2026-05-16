@@ -2,6 +2,8 @@ export default {
   slug: "competitiveProgramming",
   title: "Competitive Programming",
   description: "From Logic Building to Contest Dominance",
+  originalPrice: 8400,
+  discountPrice: 3900,
 
   jobs: [
     "Software Engineer",

@@ -2,6 +2,8 @@ export default {
   slug: "cProgramming",
   title: "C Programming",
   description: "From Syntax to System-Level Thinking",
+  originalPrice: 6500,
+  discountPrice: 3200,
 
   jobs: [
     "Software Developer",

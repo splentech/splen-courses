@@ -2,6 +2,8 @@ export default {
     slug: "cyberSecurityEthicalHacking",
     title: "Cyber Security & Ethical Hacking",
     description: "Placement Oriented Tailor Made Tech Platter",
+  originalPrice: 14500,
+  discountPrice: 6500,
 
     trainer: "Justice K",
     trainerImage: "/trainer1.png",
