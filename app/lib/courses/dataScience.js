@@ -1,6 +1,8 @@
 export default {
     slug: "dataScience",
     title: "Data Science",
+    originalPrice: 13000,
+    discountPrice: 6500,
     jobs: ["ML Engineer", "AI Engineer"],
 
     trainer: "Justice K",

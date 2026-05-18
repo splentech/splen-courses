@@ -2,6 +2,8 @@ export default {
   slug: "machineLearning",
   title: "Machine Learning",
   description: "From Algorithms to Intelligent Systems",
+  originalPrice: 13000,
+  discountPrice: 6500,
 
   jobs: [
     "Machine Learning Engineer",

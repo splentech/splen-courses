@@ -2,6 +2,8 @@ export default {
     slug: "aiMlLearning",
     title: "AI / Machine Learning",
     description: "Placement Oriented Tailor Made Tech Platter",
+    originalPrice: 13000,
+    discountPrice: 6500,
 
     trainer: "Deepak Gurao",
     trainerImage: "/trainer1.png",

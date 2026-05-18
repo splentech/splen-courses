@@ -2,6 +2,8 @@ export default {
   slug: "iot",
   title: "Introduction to IoT & applications",
   description: "From Sensors to Smart Systems",
+  originalPrice: 8400,
+  discountPrice: 4200,
 
   jobs: [
     "IoT Developer",
