@@ -6,7 +6,6 @@ export default {
   discountPrice: 6500,
 
     trainer: "Justice K",
-    trainerImage: "/trainer1.png",
     trainerSlug: "justiceK",
 
 

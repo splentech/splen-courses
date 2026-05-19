@@ -8,7 +8,6 @@ const trainer = {
 
     experience: "Draptor Technology, Ethin, Clarisco Solutions, JKORG, Haqto Tech, JustDial ",
 
-    image: "/trainer1.png",   // ✅ use public folder
 };
 
 export default trainer;

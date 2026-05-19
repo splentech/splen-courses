@@ -13,7 +13,6 @@ export default {
   ],
 
   trainer: "Deepak Gurao",
-  trainerImage: "/trainer1.png",
   trainerSlug: "deepakGurao",
 
   content: [

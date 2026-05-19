@@ -6,7 +6,6 @@ const trainer = {
     skills: ["C", "C++", "Java", "JavaScript", "FrontEnd Development", "Database Management", "Backend Development", "Methaodologies", "Concepts"],
     experience: "Anurag University, Ethnus Consultancy Pvt. Ltd., IIET, BRV Technologies",
 
-    image: "/trainer1.png",   // ✅ use public folder
 };
 
 export default trainer;

@@ -13,7 +13,6 @@ export default {
   ],
 
   trainer: "Harsh Sareen",
-  trainerImage: "/trainer1.png",
   trainerSlug: "harshSareen",
 
   content: [

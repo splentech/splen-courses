@@ -1,4 +1,4 @@
-import { Box, Heading, Text, Button, Flex, Tag, Image } from "@chakra-ui/react";
+import { Box, Heading, Text, Button, Flex, Tag } from "@chakra-ui/react";
 import Navbar from "../../components/layout/Navlink";
 import { trainerMap } from "../../lib/trainers/index";
 import Link from "next/link";
@@ -59,15 +59,6 @@ export default function TrainerPage({ params }) {
           borderRadius="2xl"
           border="1px solid rgba(255,255,255,0.07)"
         >
-          <Image
-            src={trainer.image}
-            alt={trainer.name}
-            boxSize="160px"
-            borderRadius="full"
-            objectFit="cover"
-            border="3px solid rgba(79,110,247,0.4)"
-            flexShrink={0}
-          />
           <Box textAlign={{ base: "center", md: "left" }}>
             <Heading
               fontSize={{ base: "2xl", md: "3xl" }}

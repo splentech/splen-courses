@@ -8,7 +8,6 @@ const trainer = {
 
     experience: "ASHWADEEP FOUNDATION, Tech Mahindra, Reliance Indutries",
 
-    image: "/trainer1.png",   // ✅ use public folder
 };
 
 export default trainer;

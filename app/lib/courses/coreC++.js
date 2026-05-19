@@ -6,7 +6,6 @@ export default {
   discountPrice: 3200,
 
     trainer: "Nishchal Gupta",
-    trainerImage: "/trainer2.jpg",
     trainerSlug: "nishchalGupta",
 
     content: [

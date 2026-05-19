@@ -12,7 +12,6 @@ export default {
         "Competitive Programmer"
     ],
     trainer: "Raman Gupta",
-    trainerImage: "/trainer2.jpg",
     trainerSlug: "ramanGupta",
 
     content: [

@@ -8,7 +8,6 @@ const trainer = {
 
     experience: "Modern Institute of Technology, IEC College, Shapemyskills Pvt Ltd, CGC Jhanjeri, WITS Innovation Lab, Reservation DB Management",
 
-    image: "/trainer1.png",   // ✅ use public folder
 };
 
 export default trainer;

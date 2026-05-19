@@ -8,7 +8,6 @@ const trainer = {
 
     experience: "SRI ESHWAR COLLEGE OF ENGINEERING, LOVELY PROFESSIONAL UNIVERSITY, IILM UNIVERSITY, RISHIHOOD UNIVERSITY, HCL TECHNOLOGIES, CODING NINJAS",
 
-    image: "/trainer1.png",   // ✅ use public folder
 };
 
 export default trainer;

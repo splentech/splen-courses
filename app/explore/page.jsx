@@ -108,21 +108,9 @@ function CourseCard({ course, index }) {
       flexDirection="column"
       gap={4}
     >
-      <Flex justify="space-between" align="center">
-        <Heading size="sm" color="white" maxW="75%">
-          {course.title}
-        </Heading>
-        <Box
-          boxSize="42px"
-          borderRadius="full"
-          overflow="hidden"
-          bg="rgba(255,255,255,0.06)"
-          border="1px solid rgba(255,255,255,0.1)"
-          flexShrink={0}
-        >
-          <img src={course?.trainerImage || "/trainer.png"} alt="trainer" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
-        </Box>
-      </Flex>
+      <Heading size="sm" color="white">
+        {course.title}
+      </Heading>
 
       {course.description && (
         <Text color="gray.400" fontSize="sm" noOfLines={2} lineHeight={1.6}>

@@ -8,7 +8,6 @@ const trainer = {
 
   experience: "Ex-Google, Ex-Amazon",
 
-  image: "/trainer2.jpg",   // ✅ use public folder
 };
 
 export default trainer;

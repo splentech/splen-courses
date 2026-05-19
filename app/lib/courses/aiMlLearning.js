@@ -6,7 +6,6 @@ export default {
     discountPrice: 6500,
 
     trainer: "Deepak Gurao",
-    trainerImage: "/trainer1.png",
     trainerSlug: "deepakGurao",
 
 

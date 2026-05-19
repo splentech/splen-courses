@@ -6,7 +6,6 @@ const trainer = {
     skills: ["C", "C++", "Java", "Python", "Golang", "FrontEnd Development", "Database Management", "Mobile Development", "Backend Development", "SDLC"],
     experience: "Software Developer Lakshmi Infotech, Software Developer Netlogic, L&T Infotech, HCL Technologies, ICSI, ICAI, IMA, Genis Softech, DOP, Team Net Inc",
 
-    image: "/trainer1.png",   // ✅ use public folder
 };
 
 export default trainer;

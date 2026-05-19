@@ -12,7 +12,6 @@ export default {
     "C Programmer"
   ],
      trainer: "Justice K",
-    trainerImage: "/trainer1.png",
     trainerSlug: "justiceK",
 
   content: [

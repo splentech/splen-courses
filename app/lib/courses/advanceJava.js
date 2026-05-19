@@ -13,7 +13,6 @@ export default {
   ],
 
   trainer: "Thallapally Vineeth",
-  trainerImage: "/trainer1.png",
   trainerSlug: "thallapallyVineeth",
   content: [
     {

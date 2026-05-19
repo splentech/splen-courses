@@ -6,7 +6,6 @@ export default {
     jobs: ["ML Engineer", "AI Engineer"],
 
     trainer: "Justice K",
-    trainerImage: "/trainer2.jpg",
     trainerSlug: "justiceK",
     
 

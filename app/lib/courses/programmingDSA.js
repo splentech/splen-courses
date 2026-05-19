@@ -14,7 +14,6 @@ export default {
 
 
   trainer: "Revathi Gopalan",
-  trainerImage: "/trainer1.png",
   trainerSlug: "revathiGopalan",
 
   content: [

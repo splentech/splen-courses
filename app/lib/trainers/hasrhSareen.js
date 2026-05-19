@@ -7,7 +7,6 @@ const trainer = {
 
     experience: "ANT Technologies, WisdomSprouts, MCTE, Grean Leaf, Data Sphere, Mazenet, Spring People,LearnBay, ExactSpace, Froyotech, Cantilever, 3RI Technology",
 
-    image: "/trainer1.png",   // ✅ use public folder
 };
 
 export default trainer;
