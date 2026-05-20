@@ -15,8 +15,7 @@ import {
 
 const MotionBox = motion(Box);
 
-const APPLY_URL =
-  "https://docs.google.com/forms/d/e/1FAIpQLSedmRNRYEnkBe3LKEF1akAypgZtdcQoUR6j-fdPgR7W1fKCNg/viewform?usp=preview";
+const APPLY_URL = "https://forms.gle/b9zuUD5LDw1Ks1JC8";
 
 export default function Contact() {
   return (
